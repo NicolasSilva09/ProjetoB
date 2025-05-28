@@ -32,7 +32,7 @@ header nav ul li a{
     font-size:1.4rem;
 }
 header nav a:hover{
-    color: #000;
+    color: #fff;
     border-radius: 20px;
     text-decoration: underline 5px greenyellow;
 }
@@ -67,7 +67,7 @@ main{
     font-weight: 700;
     margin-top: 10px;
     text-align: center;
-    color:blue;
+    color:rgb(33, 11, 235);
     font-size: 1.7rem;
 }
 button{
@@ -81,4 +81,33 @@ button{
 }
 button:hover{
     background-image: linear-gradient(green, #000);
+}
+
+aside{
+    width: 200px;
+    padding: 10px;
+    background: #f8f8f8;
+}
+footer{
+    background: #1ea12d;
+    color: #000;
+    padding: 20px, 0;
+    margin-top: auto;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin-top: 0 auto;
+}
+.footer-content ul{
+    list-style: none;
+}
+.footer-content li{
+    margin-bottom: 5px;
+}
+.footer-content a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
 }
